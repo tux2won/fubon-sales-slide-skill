@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "generatedBy": "fubon-slide",
+  "style": "brand",
+  "language": "ko",
+  "globalSettings": {
+    "version": 1,
+    "title": "신상품 교육자료를 읽는 세 가지 기준",
+    "subtitle": "가상 교육 예시 · 실제 상품 정보 없음",
+    "audience": "보험 모집인과 영업직원",
+    "language": "ko",
+    "style": "brand",
+    "ratio": "16:9",
+    "status": "draft",
+    "company": "푸본현대생명 영업교육팀",
+    "pageNumbers": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slideId": "cover",
+      "layout": "S01",
+      "role": "cover",
+      "visibleText": {
+        "kicker": "PRODUCT TRAINING",
+        "title": "신상품 교육자료를 읽는 세 가지 기준",
+        "subtitle": "구조를 이해하고, 조건을 확인하고, 근거로 설명합니다",
+        "body": "가상 교육 예시 · 실제 상품 정보 없음",
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "1/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 1 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S01 (Index cover) and role cover.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"PRODUCT TRAINING\",\n  \"title\": \"신상품 교육자료를 읽는 세 가지 기준\",\n  \"subtitle\": \"구조를 이해하고, 조건을 확인하고, 근거로 설명합니다\",\n  \"body\": \"가상 교육 예시 · 실제 상품 정보 없음\",\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"1/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "35f6a66513ea9083a86692bb0f42b8341b540f1b0c1ecfffe3949466e4dc91f3"
+    },
+    {
+      "page": 2,
+      "slideId": "goals",
+      "layout": "S05",
+      "role": "intro",
+      "visibleText": {
+        "kicker": "LEARNING GOALS",
+        "title": "교육 후 확인할 수 있어야 하는 것",
+        "items": [
+          {
+            "title": "상품 구조",
+            "text": "무엇을 설명하는 자료인지 먼저 파악합니다."
+          },
+          {
+            "title": "적용 조건",
+            "text": "어떤 기준과 상황에서 적용되는지 확인합니다."
+          },
+          {
+            "title": "설명 근거",
+            "text": "문구와 수치의 원문 위치를 찾습니다."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "2/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 2 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S05 (Three layers) and role intro.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"LEARNING GOALS\",\n  \"title\": \"교육 후 확인할 수 있어야 하는 것\",\n  \"items\": [\n    {\n      \"title\": \"상품 구조\",\n      \"text\": \"무엇을 설명하는 자료인지 먼저 파악합니다.\"\n    },\n    {\n      \"title\": \"적용 조건\",\n      \"text\": \"어떤 기준과 상황에서 적용되는지 확인합니다.\"\n    },\n    {\n      \"title\": \"설명 근거\",\n      \"text\": \"문구와 수치의 원문 위치를 찾습니다.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"2/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "838de573673cb6a4d85777c496e9a0eb98c5481577c00b464589bc5ae3442da4"
+    },
+    {
+      "page": 3,
+      "slideId": "compare",
+      "layout": "S08",
+      "role": "body",
+      "visibleText": {
+        "kicker": "CHECK THE BASIS",
+        "title": "특징과 조건을 함께 읽습니다",
+        "items": [
+          {
+            "title": "먼저 파악할 내용",
+            "text": "자료가 설명하는 핵심 기능과 교육 목적"
+          },
+          {
+            "title": "함께 확인할 내용",
+            "text": "적용 대상, 기준일, 채널, 예외와 전제"
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "3/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 3 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S08 (Duo comparison / two scenes) and role body.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"CHECK THE BASIS\",\n  \"title\": \"특징과 조건을 함께 읽습니다\",\n  \"items\": [\n    {\n      \"title\": \"먼저 파악할 내용\",\n      \"text\": \"자료가 설명하는 핵심 기능과 교육 목적\"\n    },\n    {\n      \"title\": \"함께 확인할 내용\",\n      \"text\": \"적용 대상, 기준일, 채널, 예외와 전제\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"3/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "22605d3038108c270404fe6e9c3c31700f85b18f119a925a24edde346e1fb334"
+    },
+    {
+      "page": 4,
+      "slideId": "table",
+      "layout": "S21",
+      "role": "body",
+      "visibleText": {
+        "kicker": "SOURCE MAP",
+        "title": "근거를 남기는 간단한 표",
+        "table": {
+          "headers": [
+            "확인 항목",
+            "원문에서 찾을 위치",
+            "기록 방법"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "공식 상품명",
+                "최신 상품 문서",
+                "명칭을 그대로 기록"
+              ]
+            },
+            {
+              "cells": [
+                "주요 조건",
+                "약관 또는 판매기준",
+                "페이지와 조건을 함께 기록"
+              ]
+            },
+            {
+              "cells": [
+                "설계 예시",
+                "설계 기준이 있는 페이지",
+                "단위와 가정을 보존"
+              ]
+            }
+          ]
+        },
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "실제 상품을 설명할 때는 최신 원문을 별도로 첨부합니다.",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "4/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 4 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S21 (Product specification table) and role body.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"SOURCE MAP\",\n  \"title\": \"근거를 남기는 간단한 표\",\n  \"table\": {\n    \"headers\": [\n      \"확인 항목\",\n      \"원문에서 찾을 위치\",\n      \"기록 방법\"\n    ],\n    \"rows\": [\n      {\n        \"cells\": [\n          \"공식 상품명\",\n          \"최신 상품 문서\",\n          \"명칭을 그대로 기록\"\n        ]\n      },\n      {\n        \"cells\": [\n          \"주요 조건\",\n          \"약관 또는 판매기준\",\n          \"페이지와 조건을 함께 기록\"\n        ]\n      },\n      {\n        \"cells\": [\n          \"설계 예시\",\n          \"설계 기준이 있는 페이지\",\n          \"단위와 가정을 보존\"\n        ]\n      }\n    ]\n  },\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"실제 상품을 설명할 때는 최신 원문을 별도로 첨부합니다.\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"4/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "493b685eb4099681cafb7f61a50c5910b9a5c20d7d17d8fb8eeb395542706d19"
+    },
+    {
+      "page": 5,
+      "slideId": "sequence",
+      "layout": "S11",
+      "role": "body",
+      "visibleText": {
+        "kicker": "BEFORE USING",
+        "title": "설명하기 전에 확인하는 순서",
+        "items": [
+          {
+            "title": "원문 준비",
+            "text": "최신 자료를 모읍니다."
+          },
+          {
+            "title": "조건 대조",
+            "text": "표현과 적용 기준을 확인합니다."
+          },
+          {
+            "title": "근거 연결",
+            "text": "주장에 페이지를 연결합니다."
+          },
+          {
+            "title": "담당자 확인",
+            "text": "미확인 항목을 해결합니다."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "5/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 5 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S11 (Horizontal timeline) and role body.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"BEFORE USING\",\n  \"title\": \"설명하기 전에 확인하는 순서\",\n  \"items\": [\n    {\n      \"title\": \"원문 준비\",\n      \"text\": \"최신 자료를 모읍니다.\"\n    },\n    {\n      \"title\": \"조건 대조\",\n      \"text\": \"표현과 적용 기준을 확인합니다.\"\n    },\n    {\n      \"title\": \"근거 연결\",\n      \"text\": \"주장에 페이지를 연결합니다.\"\n    },\n    {\n      \"title\": \"담당자 확인\",\n      \"text\": \"미확인 항목을 해결합니다.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"5/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "1dec6798f2e1d25d8a52d894fbafe17bfb8939e99c7d7f3ac69d55b0ca835a72"
+    },
+    {
+      "page": 6,
+      "slideId": "close",
+      "layout": "S10",
+      "role": "outro",
+      "visibleText": {
+        "kicker": "NEXT ACTION",
+        "title": "정확한 설명은 확인에서 시작됩니다",
+        "body": "새로운 상품을\n근거로 설명하세요",
+        "items": [
+          {
+            "title": "핵심 구조",
+            "text": "한 문장으로 정리해 보세요."
+          },
+          {
+            "title": "적용 조건",
+            "text": "함께 말해야 할 조건을 찾아보세요."
+          },
+          {
+            "title": "출처 확인",
+            "text": "원문의 페이지를 기록하세요."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "6/6"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 6 of 6 as a 16:9 sales-training slide. Output copy language: ko. Use locked layout S10 (Split closing) and role outro.\nBrand classroom style, derived from a 27-page widescreen teaching deck and a two-page portrait leaflet. Use a white background, blue headings #0876B9, teal #13A5A1, dark text #222222, dark-gray table headers #444444, fine rules #D5DADF, and red #C00000 only for conditions or changes. These are observed approximations, not certified corporate CI values. Prefer legally available YouandiModern HeadRegular/HeadBold/HeadExtraBold and TextRegular/TextBold; fall back to Pretendard or Noto Sans KR. Use supplied original logos only. Cover: brand at the top left, title in a clear message zone, team and version below. Body: 12–15% header, 73–78% explanations/tables/diagrams, 10–12% sources and disclosures; outer margins about 4–5%. Keep title and footer axes stable. Use full-width tables, parallel comparisons, product-structure diagrams, or purposeful feature groups. Tables use dark headers with white labels, fine separators, explicit units and bases, and restrained row emphasis. Charts use blue/teal with accurate proportions. For 16:9 PPT, target 28–32pt headings, 18–22pt body, 14–18pt table text, and 9–11pt notes, adjusting layout before shrinking. Portrait leaflets follow brand/product name → key explanation → diagram/table → scenario assumptions → disclosures; distinguish the original 7.5:10.833 ratio from A4. Teal section dividers and a restrained white closing are permitted. Avoid excessive shadows/3D ornament, lost conditions, and inherited old product numbers.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"brand\",\"ratio\":\"16:9\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"NEXT ACTION\",\n  \"title\": \"정확한 설명은 확인에서 시작됩니다\",\n  \"body\": \"새로운 상품을\\n근거로 설명하세요\",\n  \"items\": [\n    {\n      \"title\": \"핵심 구조\",\n      \"text\": \"한 문장으로 정리해 보세요.\"\n    },\n    {\n      \"title\": \"적용 조건\",\n      \"text\": \"함께 말해야 할 조건을 찾아보세요.\"\n    },\n    {\n      \"title\": \"출처 확인\",\n      \"text\": \"원문의 페이지를 기록하세요.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"6/6\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "02b684772273856aebea7a48ebbf94fe6c9171e18b172bc9a393d54dd7cd2af2"
+    }
+  ]
+}

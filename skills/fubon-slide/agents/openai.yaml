@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fubon Slide · 영업교육팀"
+  short_description: "Team-style sales-training decks with grounded facts"
+  default_prompt: "Use $fubon-slide to create a Korean new-product training deck from my source files using the saved team style."

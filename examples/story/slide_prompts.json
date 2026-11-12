@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "generatedBy": "fubon-slide",
+  "style": "story",
+  "language": "ko",
+  "globalSettings": {
+    "version": 1,
+    "title": "고객의 질문을 정확하게 이해하기",
+    "subtitle": "가상 교육 예시 · 실제 상품 정보 없음",
+    "audience": "보험 모집인과 영업직원",
+    "language": "ko",
+    "style": "story",
+    "ratio": "1:1",
+    "status": "draft",
+    "company": "푸본현대생명 영업교육팀",
+    "pageNumbers": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slideId": "cover",
+      "layout": "S01",
+      "role": "cover",
+      "visibleText": {
+        "kicker": "PRODUCT TRAINING",
+        "title": "고객의 질문을 정확하게 이해하기",
+        "subtitle": "가상 상담 사례로 보는 확인의 순서",
+        "body": "가상 교육 예시 · 실제 상품 정보 없음",
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "1/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 1 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S01 (Index cover) and role cover.\nStory-comic style, derived from six square training cards. Use mint #4CD2B9, brown #44272C, white, and a pale pink background approximately #F3E9E9. The pink is a visual estimate. Use bold brown panel outlines, mint speech bubbles, and restrained peach/pink supporting colors. Prefer available YouandiModern fonts; fall back to Pretendard/Noto Sans KR. On a 1080px square, target 58–76px headings, 28–36px dialogue, and 18–22px notes. Cover: roughly 40% message and 55% two-panel scene. Body: 12–16% scene heading, 72–76% two or three comic panels, 10–12% sources and training label; use 4–5% margins and consistent 5–8px brown borders. A slight diagonal division is optional. Follow situation → misconception/problem → explanation → learning check. Limit each speech bubble to one or two sentences and make the speaker unambiguous. Keep faces, clothing, proportions, and flat illustration style consistent. Use permitted supplied artwork; do not invent an official character. Product conditions remain accurate inside dialogue. Show verified numbers as separate text or simple accurate bars with units, dates, and sources. Move complex product tables to a separate classroom page. End with a recap and learning check. Avoid overcrowded bubbles, mixed 3D/flat styles, guaranteed-return implications, fear-based claims, and missing conditions.\nExplicit deck settings:\n{\"version\":1,\"title\":\"고객의 질문을 정확하게 이해하기\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"story\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"PRODUCT TRAINING\",\n  \"title\": \"고객의 질문을 정확하게 이해하기\",\n  \"subtitle\": \"가상 상담 사례로 보는 확인의 순서\",\n  \"body\": \"가상 교육 예시 · 실제 상품 정보 없음\",\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"1/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "b24ba5f73dd600de1fb59dcbf13693115da4809ffea24efa3f77d9242536d2d1"
+    },
+    {
+      "page": 2,
+      "slideId": "conversation",
+      "layout": "S08",
+      "role": "body",
+      "visibleText": {
+        "kicker": "ASK AND CHECK",
+        "title": "조건이 궁금하신가요?",
+        "items": [
+          {
+            "speaker": "고객",
+            "title": "질문",
+            "text": "이 내용이 모든 상황에 적용되나요?"
+          },
+          {
+            "speaker": "모집인",
+            "title": "확인 후 설명",
+            "text": "적용 조건을 원문에서 함께 확인해 보겠습니다."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "2/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 2 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S08 (Duo comparison / two scenes) and role body.\nStory-comic style, derived from six square training cards. Use mint #4CD2B9, brown #44272C, white, and a pale pink background approximately #F3E9E9. The pink is a visual estimate. Use bold brown panel outlines, mint speech bubbles, and restrained peach/pink supporting colors. Prefer available YouandiModern fonts; fall back to Pretendard/Noto Sans KR. On a 1080px square, target 58–76px headings, 28–36px dialogue, and 18–22px notes. Cover: roughly 40% message and 55% two-panel scene. Body: 12–16% scene heading, 72–76% two or three comic panels, 10–12% sources and training label; use 4–5% margins and consistent 5–8px brown borders. A slight diagonal division is optional. Follow situation → misconception/problem → explanation → learning check. Limit each speech bubble to one or two sentences and make the speaker unambiguous. Keep faces, clothing, proportions, and flat illustration style consistent. Use permitted supplied artwork; do not invent an official character. Product conditions remain accurate inside dialogue. Show verified numbers as separate text or simple accurate bars with units, dates, and sources. Move complex product tables to a separate classroom page. End with a recap and learning check. Avoid overcrowded bubbles, mixed 3D/flat styles, guaranteed-return implications, fear-based claims, and missing conditions.\nExplicit deck settings:\n{\"version\":1,\"title\":\"고객의 질문을 정확하게 이해하기\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"story\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"ASK AND CHECK\",\n  \"title\": \"조건이 궁금하신가요?\",\n  \"items\": [\n    {\n      \"speaker\": \"고객\",\n      \"title\": \"질문\",\n      \"text\": \"이 내용이 모든 상황에 적용되나요?\"\n    },\n    {\n      \"speaker\": \"모집인\",\n      \"title\": \"확인 후 설명\",\n      \"text\": \"적용 조건을 원문에서 함께 확인해 보겠습니다.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"2/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "d62b167c59dce7b7a78ab3de87a48b14575e968ed74aeda45e0446b501d8a6b1"
+    },
+    {
+      "page": 3,
+      "slideId": "learning",
+      "layout": "S05",
+      "role": "body",
+      "visibleText": {
+        "kicker": "LEARNING CHECK",
+        "title": "설명 전에 확인할 것",
+        "items": [
+          {
+            "title": "질문 이해",
+            "text": "고객이 궁금한 조건을 정리합니다."
+          },
+          {
+            "title": "원문 확인",
+            "text": "최신 자료의 적용 기준을 찾습니다."
+          },
+          {
+            "title": "정확한 설명",
+            "text": "확인한 사실과 미확인 사항을 구분합니다."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "3/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 3 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S05 (Three layers) and role body.\nStory-comic style, derived from six square training cards. Use mint #4CD2B9, brown #44272C, white, and a pale pink background approximately #F3E9E9. The pink is a visual estimate. Use bold brown panel outlines, mint speech bubbles, and restrained peach/pink supporting colors. Prefer available YouandiModern fonts; fall back to Pretendard/Noto Sans KR. On a 1080px square, target 58–76px headings, 28–36px dialogue, and 18–22px notes. Cover: roughly 40% message and 55% two-panel scene. Body: 12–16% scene heading, 72–76% two or three comic panels, 10–12% sources and training label; use 4–5% margins and consistent 5–8px brown borders. A slight diagonal division is optional. Follow situation → misconception/problem → explanation → learning check. Limit each speech bubble to one or two sentences and make the speaker unambiguous. Keep faces, clothing, proportions, and flat illustration style consistent. Use permitted supplied artwork; do not invent an official character. Product conditions remain accurate inside dialogue. Show verified numbers as separate text or simple accurate bars with units, dates, and sources. Move complex product tables to a separate classroom page. End with a recap and learning check. Avoid overcrowded bubbles, mixed 3D/flat styles, guaranteed-return implications, fear-based claims, and missing conditions.\nExplicit deck settings:\n{\"version\":1,\"title\":\"고객의 질문을 정확하게 이해하기\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"story\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"LEARNING CHECK\",\n  \"title\": \"설명 전에 확인할 것\",\n  \"items\": [\n    {\n      \"title\": \"질문 이해\",\n      \"text\": \"고객이 궁금한 조건을 정리합니다.\"\n    },\n    {\n      \"title\": \"원문 확인\",\n      \"text\": \"최신 자료의 적용 기준을 찾습니다.\"\n    },\n    {\n      \"title\": \"정확한 설명\",\n      \"text\": \"확인한 사실과 미확인 사항을 구분합니다.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"3/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "63ab7fb496d42da74a3846d7cf5dcd97c9d35f850cb4d6102813ca1a440b3aa0"
+    },
+    {
+      "page": 4,
+      "slideId": "close",
+      "layout": "S10",
+      "role": "outro",
+      "visibleText": {
+        "kicker": "NEXT ACTION",
+        "title": "확인한 내용으로 답합니다",
+        "body": "정확한 상담은\n확인에서 시작됩니다",
+        "items": [
+          {
+            "title": "핵심 구조",
+            "text": "한 문장으로 정리해 보세요."
+          },
+          {
+            "title": "적용 조건",
+            "text": "함께 말해야 할 조건을 찾아보세요."
+          },
+          {
+            "title": "출처 확인",
+            "text": "원문의 페이지를 기록하세요."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "4/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 4 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S10 (Split closing) and role outro.\nStory-comic style, derived from six square training cards. Use mint #4CD2B9, brown #44272C, white, and a pale pink background approximately #F3E9E9. The pink is a visual estimate. Use bold brown panel outlines, mint speech bubbles, and restrained peach/pink supporting colors. Prefer available YouandiModern fonts; fall back to Pretendard/Noto Sans KR. On a 1080px square, target 58–76px headings, 28–36px dialogue, and 18–22px notes. Cover: roughly 40% message and 55% two-panel scene. Body: 12–16% scene heading, 72–76% two or three comic panels, 10–12% sources and training label; use 4–5% margins and consistent 5–8px brown borders. A slight diagonal division is optional. Follow situation → misconception/problem → explanation → learning check. Limit each speech bubble to one or two sentences and make the speaker unambiguous. Keep faces, clothing, proportions, and flat illustration style consistent. Use permitted supplied artwork; do not invent an official character. Product conditions remain accurate inside dialogue. Show verified numbers as separate text or simple accurate bars with units, dates, and sources. Move complex product tables to a separate classroom page. End with a recap and learning check. Avoid overcrowded bubbles, mixed 3D/flat styles, guaranteed-return implications, fear-based claims, and missing conditions.\nExplicit deck settings:\n{\"version\":1,\"title\":\"고객의 질문을 정확하게 이해하기\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"story\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"NEXT ACTION\",\n  \"title\": \"확인한 내용으로 답합니다\",\n  \"body\": \"정확한 상담은\\n확인에서 시작됩니다\",\n  \"items\": [\n    {\n      \"title\": \"핵심 구조\",\n      \"text\": \"한 문장으로 정리해 보세요.\"\n    },\n    {\n      \"title\": \"적용 조건\",\n      \"text\": \"함께 말해야 할 조건을 찾아보세요.\"\n    },\n    {\n      \"title\": \"출처 확인\",\n      \"text\": \"원문의 페이지를 기록하세요.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"4/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "f76f22f27bf5c22a9294fda44cd5bb47f22d0daaad1b143adead698a3307e3d2"
+    }
+  ]
+}

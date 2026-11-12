@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "layouts": [
+    {"id":"S01","name":"Index cover","kind":"cover","min":0,"max":0},
+    {"id":"S02","name":"Vertical timeline and metrics","kind":"timeline-v","min":2,"max":6,"numeric":true},
+    {"id":"S03","name":"Split statement","kind":"statement","min":0,"max":3},
+    {"id":"S04","name":"Six cells","kind":"grid","min":6,"max":6,"columns":3},
+    {"id":"S05","name":"Three layers","kind":"layers","min":3,"max":3},
+    {"id":"S06","name":"KPI tower","kind":"towers","min":4,"max":4,"numeric":true},
+    {"id":"S07","name":"Horizontal bars","kind":"bars","min":5,"max":10,"numeric":true},
+    {"id":"S08","name":"Duo comparison / two scenes","kind":"compare","min":2,"max":2},
+    {"id":"S09","name":"Statement pause","kind":"statement","min":0,"max":0},
+    {"id":"S10","name":"Split closing","kind":"closing","min":1,"max":4},
+    {"id":"S11","name":"Horizontal timeline","kind":"timeline-h","min":4,"max":7},
+    {"id":"S12","name":"Statement and banner","kind":"banner","min":0,"max":0},
+    {"id":"S13","name":"Three forces","kind":"forces","min":3,"max":3},
+    {"id":"S14","name":"Loop","kind":"loop","min":3,"max":6},
+    {"id":"S15","name":"Matrix and summary","kind":"grid","min":8,"max":12,"columns":4},
+    {"id":"S16","name":"Six-part brief","kind":"grid","min":6,"max":6,"columns":3},
+    {"id":"S17","name":"Three-layer system","kind":"system","min":3,"max":3},
+    {"id":"S18","name":"Three evidence-backed reasons","kind":"reasons","min":3,"max":3,"evidence":true},
+    {"id":"S19","name":"Four modules","kind":"grid","min":4,"max":4,"columns":4},
+    {"id":"S20","name":"Metric ledger","kind":"ledger","min":4,"max":6,"numeric":true},
+    {"id":"S21","name":"Product specification table","kind":"table","min":0,"max":0},
+    {"id":"S22","name":"Image hero","kind":"image","min":0,"max":3}
+  ]
+}

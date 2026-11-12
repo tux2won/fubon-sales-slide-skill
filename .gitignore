@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.openai/
+private-sources/
+*.pptx
+*.pdf
+*.docx
+*.xlsx
+*.zip
+*.tar.gz

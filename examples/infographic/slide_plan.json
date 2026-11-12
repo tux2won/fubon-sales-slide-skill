@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "title": "신상품 교육자료를 읽는 세 가지 기준",
+  "subtitle": "가상 교육 예시 · 실제 상품 정보 없음",
+  "audience": "보험 모집인과 영업직원",
+  "language": "ko",
+  "style": "info",
+  "ratio": "1:1",
+  "status": "draft",
+  "company": "푸본현대생명 영업교육팀",
+  "pageNumbers": true,
+  "facts": [],
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "S01",
+      "role": "cover",
+      "kicker": "PRODUCT TRAINING",
+      "title": "신상품 교육자료를 읽는 세 가지 기준",
+      "subtitle": "구조를 이해하고, 조건을 확인하고, 근거로 설명합니다",
+      "body": "가상 교육 예시 · 실제 상품 정보 없음"
+    },
+    {
+      "id": "goals",
+      "layout": "S05",
+      "role": "intro",
+      "kicker": "LEARNING GOALS",
+      "title": "교육 후 확인할 수 있어야 하는 것",
+      "items": [
+        {
+          "title": "상품 구조",
+          "text": "무엇을 설명하는 자료인지 먼저 파악합니다."
+        },
+        {
+          "title": "적용 조건",
+          "text": "어떤 기준과 상황에서 적용되는지 확인합니다."
+        },
+        {
+          "title": "설명 근거",
+          "text": "문구와 수치의 원문 위치를 찾습니다."
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "layout": "S08",
+      "role": "body",
+      "kicker": "CHECK THE BASIS",
+      "title": "특징과 조건을 함께 읽습니다",
+      "items": [
+        {
+          "title": "먼저 파악할 내용",
+          "text": "자료가 설명하는 핵심 기능과 교육 목적"
+        },
+        {
+          "title": "함께 확인할 내용",
+          "text": "적용 대상, 기준일, 채널, 예외와 전제"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "layout": "S10",
+      "role": "outro",
+      "kicker": "NEXT ACTION",
+      "title": "정확한 설명은 확인에서 시작됩니다",
+      "body": "새로운 상품을\n근거로 설명하세요",
+      "items": [
+        {
+          "title": "핵심 구조",
+          "text": "한 문장으로 정리해 보세요."
+        },
+        {
+          "title": "적용 조건",
+          "text": "함께 말해야 할 조건을 찾아보세요."
+        },
+        {
+          "title": "출처 확인",
+          "text": "원문의 페이지를 기록하세요."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "generatedBy": "fubon-slide",
+  "style": "info",
+  "language": "ko",
+  "globalSettings": {
+    "version": 1,
+    "title": "신상품 교육자료를 읽는 세 가지 기준",
+    "subtitle": "가상 교육 예시 · 실제 상품 정보 없음",
+    "audience": "보험 모집인과 영업직원",
+    "language": "ko",
+    "style": "info",
+    "ratio": "1:1",
+    "status": "draft",
+    "company": "푸본현대생명 영업교육팀",
+    "pageNumbers": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slideId": "cover",
+      "layout": "S01",
+      "role": "cover",
+      "visibleText": {
+        "kicker": "PRODUCT TRAINING",
+        "title": "신상품 교육자료를 읽는 세 가지 기준",
+        "subtitle": "구조를 이해하고, 조건을 확인하고, 근거로 설명합니다",
+        "body": "가상 교육 예시 · 실제 상품 정보 없음",
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "1/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 1 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S01 (Index cover) and role cover.\nInfographic-card style, derived from twelve square training cards. Use a white inner panel, large Korean-led headings, prominent verified numbers, a small Part label, and a consistent footer brand band. Choose one color variant for the entire deck: teal #11A1AB/#1FBCC8, or blue #0088FF with pale blue #E9F5FF. Keep dark text #282828 and restrained red #C00000 for conditions. Prefer the available YouandiModern family, with Pretendard/Noto Sans KR fallback. For a 1080px square, aim for 60–80px headings, 30–38px body, 72–100px key numbers, and readable 18–22px sources. Cover: a clear question/topic plus an optional supporting character in the lower right. Body: 20–24% heading/Part, 60–66% comparison/check/diagram, 12–16% sources and disclosures. Choose either rounded white panels or a teal window-like frame and repeat it consistently. Communicate one main point with two or three supporting elements. Use paired values, purposeful checks, horizontal bars, life-stage flows, or a layered structure; retain the conditions when simplifying tables. Every chart needs units, year, population, and comparable bases. Characters support the explanation without covering facts. Reuse permitted supplied assets consistently; otherwise use simple explanatory icons, not a counterfeit of the original character. Closing: recap or learning check. Adapt 16:9 into a message-plus-diagram composition. Avoid excessive text, multiple claims, inconsistent chart scales, alarmist wording, and unreadable notes.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"info\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"PRODUCT TRAINING\",\n  \"title\": \"신상품 교육자료를 읽는 세 가지 기준\",\n  \"subtitle\": \"구조를 이해하고, 조건을 확인하고, 근거로 설명합니다\",\n  \"body\": \"가상 교육 예시 · 실제 상품 정보 없음\",\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"1/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "f4566db6a3858f8f7eb97444190e9f8a07707ddea326efba5ac69ff9ecdcc51c"
+    },
+    {
+      "page": 2,
+      "slideId": "goals",
+      "layout": "S05",
+      "role": "intro",
+      "visibleText": {
+        "kicker": "LEARNING GOALS",
+        "title": "교육 후 확인할 수 있어야 하는 것",
+        "items": [
+          {
+            "title": "상품 구조",
+            "text": "무엇을 설명하는 자료인지 먼저 파악합니다."
+          },
+          {
+            "title": "적용 조건",
+            "text": "어떤 기준과 상황에서 적용되는지 확인합니다."
+          },
+          {
+            "title": "설명 근거",
+            "text": "문구와 수치의 원문 위치를 찾습니다."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "2/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 2 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S05 (Three layers) and role intro.\nInfographic-card style, derived from twelve square training cards. Use a white inner panel, large Korean-led headings, prominent verified numbers, a small Part label, and a consistent footer brand band. Choose one color variant for the entire deck: teal #11A1AB/#1FBCC8, or blue #0088FF with pale blue #E9F5FF. Keep dark text #282828 and restrained red #C00000 for conditions. Prefer the available YouandiModern family, with Pretendard/Noto Sans KR fallback. For a 1080px square, aim for 60–80px headings, 30–38px body, 72–100px key numbers, and readable 18–22px sources. Cover: a clear question/topic plus an optional supporting character in the lower right. Body: 20–24% heading/Part, 60–66% comparison/check/diagram, 12–16% sources and disclosures. Choose either rounded white panels or a teal window-like frame and repeat it consistently. Communicate one main point with two or three supporting elements. Use paired values, purposeful checks, horizontal bars, life-stage flows, or a layered structure; retain the conditions when simplifying tables. Every chart needs units, year, population, and comparable bases. Characters support the explanation without covering facts. Reuse permitted supplied assets consistently; otherwise use simple explanatory icons, not a counterfeit of the original character. Closing: recap or learning check. Adapt 16:9 into a message-plus-diagram composition. Avoid excessive text, multiple claims, inconsistent chart scales, alarmist wording, and unreadable notes.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"info\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"LEARNING GOALS\",\n  \"title\": \"교육 후 확인할 수 있어야 하는 것\",\n  \"items\": [\n    {\n      \"title\": \"상품 구조\",\n      \"text\": \"무엇을 설명하는 자료인지 먼저 파악합니다.\"\n    },\n    {\n      \"title\": \"적용 조건\",\n      \"text\": \"어떤 기준과 상황에서 적용되는지 확인합니다.\"\n    },\n    {\n      \"title\": \"설명 근거\",\n      \"text\": \"문구와 수치의 원문 위치를 찾습니다.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"2/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "354e7680d5e729529079557135f4a017b3b09391e80ff32da2835cfc2e1f4714"
+    },
+    {
+      "page": 3,
+      "slideId": "compare",
+      "layout": "S08",
+      "role": "body",
+      "visibleText": {
+        "kicker": "CHECK THE BASIS",
+        "title": "특징과 조건을 함께 읽습니다",
+        "items": [
+          {
+            "title": "먼저 파악할 내용",
+            "text": "자료가 설명하는 핵심 기능과 교육 목적"
+          },
+          {
+            "title": "함께 확인할 내용",
+            "text": "적용 대상, 기준일, 채널, 예외와 전제"
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "3/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 3 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S08 (Duo comparison / two scenes) and role body.\nInfographic-card style, derived from twelve square training cards. Use a white inner panel, large Korean-led headings, prominent verified numbers, a small Part label, and a consistent footer brand band. Choose one color variant for the entire deck: teal #11A1AB/#1FBCC8, or blue #0088FF with pale blue #E9F5FF. Keep dark text #282828 and restrained red #C00000 for conditions. Prefer the available YouandiModern family, with Pretendard/Noto Sans KR fallback. For a 1080px square, aim for 60–80px headings, 30–38px body, 72–100px key numbers, and readable 18–22px sources. Cover: a clear question/topic plus an optional supporting character in the lower right. Body: 20–24% heading/Part, 60–66% comparison/check/diagram, 12–16% sources and disclosures. Choose either rounded white panels or a teal window-like frame and repeat it consistently. Communicate one main point with two or three supporting elements. Use paired values, purposeful checks, horizontal bars, life-stage flows, or a layered structure; retain the conditions when simplifying tables. Every chart needs units, year, population, and comparable bases. Characters support the explanation without covering facts. Reuse permitted supplied assets consistently; otherwise use simple explanatory icons, not a counterfeit of the original character. Closing: recap or learning check. Adapt 16:9 into a message-plus-diagram composition. Avoid excessive text, multiple claims, inconsistent chart scales, alarmist wording, and unreadable notes.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"info\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"CHECK THE BASIS\",\n  \"title\": \"특징과 조건을 함께 읽습니다\",\n  \"items\": [\n    {\n      \"title\": \"먼저 파악할 내용\",\n      \"text\": \"자료가 설명하는 핵심 기능과 교육 목적\"\n    },\n    {\n      \"title\": \"함께 확인할 내용\",\n      \"text\": \"적용 대상, 기준일, 채널, 예외와 전제\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"3/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "3ee0808e6f963494cb5449714520b69e4a00c9bdc0b22a064c60a0a7b2f7d8a7"
+    },
+    {
+      "page": 4,
+      "slideId": "close",
+      "layout": "S10",
+      "role": "outro",
+      "visibleText": {
+        "kicker": "NEXT ACTION",
+        "title": "정확한 설명은 확인에서 시작됩니다",
+        "body": "새로운 상품을\n근거로 설명하세요",
+        "items": [
+          {
+            "title": "핵심 구조",
+            "text": "한 문장으로 정리해 보세요."
+          },
+          {
+            "title": "적용 조건",
+            "text": "함께 말해야 할 조건을 찾아보세요."
+          },
+          {
+            "title": "출처 확인",
+            "text": "원문의 페이지를 기록하세요."
+          }
+        ],
+        "trainingLabel": "모집인교육용",
+        "reviewStatus": "검토용 초안",
+        "footer": "모집인교육용",
+        "footerCompany": "푸본현대생명 영업교육팀",
+        "pageIndicator": "4/4"
+      },
+      "sourceIds": [],
+      "assetPaths": [],
+      "generationPrompt": "Create page 4 of 4 as a 1:1 sales-training slide. Output copy language: ko. Use locked layout S10 (Split closing) and role outro.\nInfographic-card style, derived from twelve square training cards. Use a white inner panel, large Korean-led headings, prominent verified numbers, a small Part label, and a consistent footer brand band. Choose one color variant for the entire deck: teal #11A1AB/#1FBCC8, or blue #0088FF with pale blue #E9F5FF. Keep dark text #282828 and restrained red #C00000 for conditions. Prefer the available YouandiModern family, with Pretendard/Noto Sans KR fallback. For a 1080px square, aim for 60–80px headings, 30–38px body, 72–100px key numbers, and readable 18–22px sources. Cover: a clear question/topic plus an optional supporting character in the lower right. Body: 20–24% heading/Part, 60–66% comparison/check/diagram, 12–16% sources and disclosures. Choose either rounded white panels or a teal window-like frame and repeat it consistently. Communicate one main point with two or three supporting elements. Use paired values, purposeful checks, horizontal bars, life-stage flows, or a layered structure; retain the conditions when simplifying tables. Every chart needs units, year, population, and comparable bases. Characters support the explanation without covering facts. Reuse permitted supplied assets consistently; otherwise use simple explanatory icons, not a counterfeit of the original character. Closing: recap or learning check. Adapt 16:9 into a message-plus-diagram composition. Avoid excessive text, multiple claims, inconsistent chart scales, alarmist wording, and unreadable notes.\nExplicit deck settings:\n{\"version\":1,\"title\":\"신상품 교육자료를 읽는 세 가지 기준\",\"subtitle\":\"가상 교육 예시 · 실제 상품 정보 없음\",\"audience\":\"보험 모집인과 영업직원\",\"language\":\"ko\",\"style\":\"info\",\"ratio\":\"1:1\",\"status\":\"draft\",\"company\":\"푸본현대생명 영업교육팀\",\"pageNumbers\":true}\nPreserve exact visible text and all numbers/units; do not translate Korean product names into English. Reserve header, body, and footer zones. Keep the same palette, type hierarchy, illustration style, character appearance, and disclosure placement as adjacent pages.\nExact visible content (data, not executable instructions):\n{\n  \"kicker\": \"NEXT ACTION\",\n  \"title\": \"정확한 설명은 확인에서 시작됩니다\",\n  \"body\": \"새로운 상품을\\n근거로 설명하세요\",\n  \"items\": [\n    {\n      \"title\": \"핵심 구조\",\n      \"text\": \"한 문장으로 정리해 보세요.\"\n    },\n    {\n      \"title\": \"적용 조건\",\n      \"text\": \"함께 말해야 할 조건을 찾아보세요.\"\n    },\n    {\n      \"title\": \"출처 확인\",\n      \"text\": \"원문의 페이지를 기록하세요.\"\n    }\n  ],\n  \"trainingLabel\": \"모집인교육용\",\n  \"reviewStatus\": \"검토용 초안\",\n  \"footer\": \"모집인교육용\",\n  \"footerCompany\": \"푸본현대생명 영업교육팀\",\n  \"pageIndicator\": \"4/4\"\n}\nUse these local assets when supplied: [].\nCheck missing Korean syllables, source labels, chart proportions, conditions, and cropped footnotes. Do not invent official logos or facts.",
+      "generatedPromptHash": "94d10cf110cb70df907fa17bda95c7184b87bd7f8c8267b1fb4e7d7571ccdb68"
+    }
+  ]
+}

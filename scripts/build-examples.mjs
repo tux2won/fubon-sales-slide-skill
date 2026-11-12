@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {buildDeck} from '../skills/fubon-slide/scripts/build-deck.mjs';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),plan=JSON.parse(readFileSync(resolve(root,'examples/classroom/slide_plan.json'),'utf8'));
+buildDeck(plan,resolve(root,'examples/classroom'),resolve(root,'examples/classroom'),{refreshDerived:true});
+const info={...plan,style:'info',ratio:'1:1',slides:[plan.slides[0],plan.slides[1],plan.slides[2],plan.slides[5]]};
+buildDeck(info,resolve(root,'examples/infographic'),resolve(root,'examples/classroom'),{refreshDerived:true});
+const story={...plan,style:'story',ratio:'1:1',title:'고객의 질문을 정확하게 이해하기',slides:[{...plan.slides[0],title:'고객의 질문을 정확하게 이해하기',subtitle:'가상 상담 사례로 보는 확인의 순서'},{id:'conversation',layout:'S08',role:'body',kicker:'ASK AND CHECK',title:'조건이 궁금하신가요?',items:[{speaker:'고객',title:'질문','text':'이 내용이 모든 상황에 적용되나요?'},{speaker:'모집인',title:'확인 후 설명','text':'적용 조건을 원문에서 함께 확인해 보겠습니다.'}]},{id:'learning',layout:'S05',role:'body',kicker:'LEARNING CHECK',title:'설명 전에 확인할 것',items:[{title:'질문 이해',text:'고객이 궁금한 조건을 정리합니다.'},{title:'원문 확인',text:'최신 자료의 적용 기준을 찾습니다.'},{title:'정확한 설명',text:'확인한 사실과 미확인 사항을 구분합니다.'}]},{...plan.slides[5],title:'확인한 내용으로 답합니다',body:'정확한 상담은\n확인에서 시작됩니다'}]};
+buildDeck(story,resolve(root,'examples/story'),resolve(root,'examples/classroom'),{refreshDerived:true});
+console.log('Built 3 fictional, non-product example decks.');
