@@ -65,6 +65,7 @@ export function pagePrompts(p,style){
 export function buildDeck(p,out,planDirectory=process.cwd(),options={}){
  const r=validatePlan(p,planDirectory);if(r.errors.length)throw new Error(r.errors.join('\n'));
  const {html,style}=renderDeck(p);mkdirSync(out,{recursive:true});
+ for(const name of ['LICENSE','NOTICE']){const from=resolve(here,'..',name),to=resolve(out,name);if(from!==to)copyFileSync(from,to);}
  const designFile=resolve(out,'DESIGN.md'),sourceDesign=resolve(planDirectory,'DESIGN.md'),promptFile=resolve(out,'slide_prompts.json'),sourcePrompts=resolve(planDirectory,'slide_prompts.json');
  const existingDesign=options.refreshDerived?null:existsSync(designFile)?readFileSync(designFile,'utf8'):existsSync(sourceDesign)?readFileSync(sourceDesign,'utf8'):null;
  const existingPrompts=options.refreshDerived?null:existsSync(promptFile)?JSON.parse(readFileSync(promptFile,'utf8').replace(/^\uFEFF/,'')):existsSync(sourcePrompts)?JSON.parse(readFileSync(sourcePrompts,'utf8').replace(/^\uFEFF/,'')):null;

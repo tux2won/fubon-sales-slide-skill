@@ -1,0 +1,16 @@
+Fubon Slide
+Copyright 2026 tux2won and contributors.
+
+This distribution adapts the layout-lock workflow, S01–S22 layout names and
+content-shape mappings, and selected template/grid vocabulary from:
+  Future Slide — https://github.com/humantonylee/future-slide
+  Upstream revision: 26914e8ee2b874e4bdd07843948b0ca841542c59
+  Original author/account: Jeongmin Lee / humantonylee
+  License: Apache License, Version 2.0 (included as LICENSE).
+
+The company-style rules, renderer, navigation runtime, source-ledger checks,
+installation guide, and English prompt composer are modified/new work. This is
+an independently maintained adaptation, not an official upstream release or an
+official corporate product. Corporate names and trademarks are not licensed by
+the software license. Original training decks, product data, proprietary logos,
+character artwork, and font files are not included.

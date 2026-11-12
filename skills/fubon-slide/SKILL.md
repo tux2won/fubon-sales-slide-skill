@@ -1,5 +1,6 @@
 ---
 name: fubon-slide
+license: Apache-2.0
 description: Create Fubon Hyundai Life sales-training slide decks with three saved team styles, locked layouts, source-grounded planning, English production instructions, and Korean slide copy. Use for new-product training decks, education cards, leaflets, or edits that should follow this team's visual system.
 ---
 
