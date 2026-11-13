@@ -1,6 +1,6 @@
 # Fubon Slide · 영업교육팀 슬라이드 스킬
 
-**❶ Codex에 설치하는 스킬 + ❷ 영문 프롬프트를 만드는 웹사이트**를 함께 제공합니다.
+**1. Codex에 설치하는 스킬 + ❷ 영문 프롬프트를 만드는 웹사이트**를 함께 제공합니다.
 
 신상품 교육자료를 만들 때 팀 디자인을 매번 설명하지 않아도 되도록, 세 가지 스타일과 S01–S22 레이아웃, 제작 순서와 검증 도구를 묶었습니다. [Future Slide](https://github.com/humantonylee/future-slide)의 공개된 레이아웃 잠금 방식을 회사 교육팀 용도로 확장했습니다. 원작자의 코드와 이 프로젝트의 차이는 [NOTICE](NOTICE)에 명시했습니다.
 
@@ -35,7 +35,7 @@ Output: editable HTML, 16:9.
 
 PPT가 필요하면 마지막 줄을 `Output: an editable PPTX with native text, tables, and charts.`로 바꾸세요. 실제 PPTX 제작에는 사용하는 Codex 환경의 프레젠테이션 제작 기능이 필요합니다. 슬라이드 이미지를 원하면 `Output: slide images, generated sequentially.`로 바꾸세요. 이미지 생성 도구가 실제로 있어야 생성할 수 있습니다.
 
-## ❷ 영문 프롬프터
+## 2. 영문 프롬프터
 
 [영업교육팀 프롬프터 열기](https://fubon-sales-slide-prompter.muddymangrove4.chatgpt.site/)
 
