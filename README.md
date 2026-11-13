@@ -37,9 +37,11 @@ PPT가 필요하면 마지막 줄을 `Output: an editable PPTX with native text,
 
 ## 2. 영문 프롬프터
 
-[영업교육팀 프롬프터 열기](https://fubon-sales-slide-prompter.muddymangrove4.chatgpt.site/)
+[영업교육팀 프롬프터 열기](https://tux2won.github.io/fubon-sales-slide-skill/)
 
-UI 1.2의 GitHub 소스·정적 배포본은 수정·검증되었습니다. 기존 Sites 주소 재게시에는 현재 연결 오류가 있어, 새 UI의 게시 여부는 [배포 상태](docs/DEPLOYMENT.md)를 구분해 확인하세요. 이 저장소를 수정했다고 기존 Sites 주소가 자동 갱신되지는 않습니다.
+팀원에게 공유할 주소는 위 GitHub Pages 링크입니다. `main` 브랜치의 `web/` 폴더를 직접 게시하므로 웹 화면과 이 저장소의 원본이 같습니다. `main`에 수정 사항을 푸시하면 GitHub가 자동으로 다시 게시합니다. 기존 ChatGPT Sites 주소에는 이전 UI가 남아 있으므로 새 링크를 사용하세요. [배포·검증 방법](docs/DEPLOYMENT.md)
+
+제목·헤더는 `web/index.html`, 색상·배치는 `web/app.css`와 `web/components.css`, 입력 항목은 `web/app.js`, 영문 제작 규칙은 `web/prompt-core.js`에서 수정할 수 있습니다. GitHub에서 파일의 연필 버튼으로 수정하고 `main`에 커밋한 뒤, **Actions → pages-build-deployment**가 성공했는지 확인하세요. 게시된 파일과 소스가 같은지는 `node scripts/verify-pages.mjs`로 검증할 수 있습니다.
 
 입력 화면은 한국어이고, 복사되는 제작 지시문은 영어입니다. 슬라이드에 표시할 언어는 별도로 선택하며 기본은 한국어입니다. 입력한 한국어 상품명과 본문은 원문 데이터로 유지합니다. Codex를 선택하면 `With $fubon-slide skill,`가 붙고, ChatGPT에서는 스킬 호출문 없이 상세 규칙을 포함합니다. 영어 지시문 자체가 품질 우위를 보장하지는 않습니다.
 

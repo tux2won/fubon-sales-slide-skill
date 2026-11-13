@@ -2,9 +2,11 @@
 
 ## GitHub Pages (selected publication route)
 
-The owner approved GitHub Pages as the replacement public address on 2026-11-13. The configured publication source will be `main` at `/` with GitHub's branch publishing. The root `index.html` forwards visitors to `web/`, which is the canonical website source. `.nojekyll` keeps the published files unmodified, including the asset rights notice. No duplicate UI export or custom Actions workflow is required.
+The owner approved GitHub Pages as the replacement public address on 2026-11-13. Pages is configured to publish `main` at `/` with GitHub's branch publishing. The root `index.html` forwards visitors to `web/`, which is the canonical website source. `.nojekyll` keeps the published files unmodified, including the asset rights notice. No duplicate UI export or custom Actions workflow is required.
 
-Expected entry address: https://tux2won.github.io/fubon-sales-slide-skill/
+Public entry address: https://tux2won.github.io/fubon-sales-slide-skill/
+
+Direct workspace address: https://tux2won.github.io/fubon-sales-slide-skill/web/
 
 The publication is only complete after the Pages build succeeds and the live file check passes:
 
@@ -12,7 +14,7 @@ The publication is only complete after the Pages build succeeds and the live fil
 node scripts/verify-pages.mjs
 ```
 
-For future UI edits, change `web/`, commit and push to `main`, wait for the Pages deployment to finish, then run the same verification. Branch publishing automatically deploys each push to `main`. It does not update the old Sites address.
+For future UI edits, change `web/`, commit and push to `main`, wait for **Actions → pages-build-deployment** to succeed, then run the same verification. Branch publishing automatically deploys each push to `main`. It does not update the old Sites address. The Pages deployment is GitHub-managed; the optional test workflow example in this repository is separate and is not enabled.
 
 ## Static exports and previous Sites address
 
