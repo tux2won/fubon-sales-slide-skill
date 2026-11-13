@@ -1,5 +1,13 @@
 # Validation record
 
+## UI 1.2 update
+
+The website now renders all four input sections at once, with a sticky desktop prompt panel and a single scrolling document. The header uses the supplied Fubon color logo, the exact title ‘영업교육팀 슬라이드 프롬프터’, and a `github` link to the existing repository. The supplied Youandi Modern TextRegular, TextBold, HeadRegular, HeadBold, and HeadExtraBold files are registered as webfonts; browser font checks passed for all five faces. Body, headings, controls, numbers, and generated-prompt display use these font families.
+
+Browser checks confirmed four visible sections with no step-toggle controls, the correct header/link labels, a loaded original logo, working style/credit changes and English Codex-copy output, no console errors, and no horizontal overflow at 390px. `scripts/export-web.mjs` verifies byte equality between canonical `web/` files and a chosen static export. The offline HTML inlines the same supplied fonts and logo.
+
+The GitHub UI source and prepared static export are updated. Re-publication to the original Sites URL is currently blocked by `sites_git_client_upgrade_required` from the connected Sites service; it must not be reported as deployed until that access path works or the user chooses another hosting route.
+
 Validated on Windows with Node.js 24.22.1. The package requires Node.js 20+ for its own renderer; the optional third-party skills CLI may have a newer Node requirement.
 
 - Automated tests: 17 behavior tests, including all S01–S22 render paths, three styles, source IDs and numeric bases, real output files, authored-artifact preservation, scene assets, English instructions, Korean user-copy preservation, Codex/ChatGPT routing, and Windows UTF-8 BOM input.

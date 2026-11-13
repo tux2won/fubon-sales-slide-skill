@@ -12,5 +12,7 @@ The company-style rules, renderer, navigation runtime, source-ledger checks,
 installation guide, and English prompt composer are modified/new work. This is
 an independently maintained adaptation, not an official upstream release or an
 official corporate product. Corporate names and trademarks are not licensed by
-the software license. Original training decks, product data, proprietary logos,
-character artwork, and font files are not included.
+the software license. Original training decks, real product data, and proprietary
+character artwork are not included. User-provided
+website logos and font binaries are located under web/assets and are excluded
+from the Apache-2.0 software license; see web/assets/RIGHTS.md.

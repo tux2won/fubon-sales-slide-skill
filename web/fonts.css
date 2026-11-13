@@ -1,0 +1,6 @@
+/* User-supplied Youandi Modern fonts. Asset rights are separate from the software license. */
+@font-face{font-family:"Youandi Web Text";src:url("assets/fonts/youandi-text-regular.otf") format("opentype");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Youandi Web Text";src:url("assets/fonts/youandi-text-bold.otf") format("opentype");font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:"Youandi Web Head";src:url("assets/fonts/youandi-head-regular.otf") format("opentype");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Youandi Web Head";src:url("assets/fonts/youandi-head-bold.otf") format("opentype");font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:"Youandi Web Head";src:url("assets/fonts/youandi-head-extra-bold.otf") format("opentype");font-style:normal;font-weight:800;font-display:swap}

@@ -3,8 +3,7 @@
   const $=id=>document.getElementById(id),core=window.PromptCore,styles=window.TEAM_STYLES;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const titles=['전하고 싶은 메시지','디자인','각 슬라이드 내용','고급 설정'];
-  const shortTitles=['메시지','디자인','페이지 내용','고급 설정'];
-  let state=core.defaults(),step=0,autosave=false,allOpen=false,toastTimer;
+  let state=core.defaults(),autosave=false,toastTimer;
   try{autosave=localStorage.getItem('sales-prompter-save')==='yes';if(autosave){const saved=localStorage.getItem('sales-prompter-v1');if(saved)state=core.normalize(JSON.parse(saved));}}catch{}
   function field(key,label,placeholder='',opts={}){
     const value=state[key]||'',type=opts.type||'text';
@@ -54,9 +53,7 @@
     `<div class="hint-box"><span class="hint-icon">✓</span><p><strong>설정이 끝났다면 오른쪽에서 복사하세요.</strong><br>최신 약관·상품요약서·판매기준을 AI에 함께 첨부하고, 완성본의 사실과 조건을 확인해 주세요.</p></div>`+sectionCopy(3);}
   function render(){
     const focusId=document.activeElement?.id;
-    $('steps').innerHTML=titles.map((t,i)=>`<button type="button" class="step ${i===step?'active':''} ${i<step?'completed':''}" data-step="${i}" ${i===step?'aria-current="step"':''} aria-label="${i+1}단계 ${t}"><b>${i<step?'✓':i+1}</b>${shortTitles[i]}</button>`).join('');
-    $('panels').innerHTML=[panel0,panel1,panel2,panel3].map((f,i)=>`<section class="panel" id="panel-${i}" aria-label="${i+1}단계 ${titles[i]}" ${i!==step&&!allOpen?'hidden':''}>${f()}</section>`).join('');
-    $('prev').disabled=step===0;$('next').textContent=step===3?'프롬프트 복사 ▣':'다음 단계 →';$('step-count').textContent=`0${step+1} / 04`;
+    $('panels').innerHTML=[panel0,panel1,panel2,panel3].map((f,i)=>`<section class="panel" id="panel-${i}" aria-label="${i+1}단계 ${titles[i]}">${f()}</section>`).join('');
     $('autosave').checked=autosave;
     if(focusId&&$(focusId))$(focusId).focus({preventScroll:true});
     update();
@@ -72,12 +69,11 @@
   function toast(text){clearTimeout(toastTimer);$('toast').textContent=text;$('toast').classList.add('show');toastTimer=setTimeout(()=>$('toast').classList.remove('show'),3300);}
   async function copy(text){try{await navigator.clipboard.writeText(text);toast('프롬프트를 복사했습니다. 사용할 AI에 붙여넣으세요.');}catch{const el=document.createElement('textarea');el.value=text;el.style.position='fixed';el.style.left='-10000px';document.body.append(el);el.select();let ok=false;try{ok=document.execCommand('copy');}catch{}el.remove();if(ok)toast('프롬프트를 복사했습니다.');else{showModal('프롬프트 직접 복사',`<p>브라우저에서 자동 복사를 허용하지 않았습니다. 아래 내용을 선택해 복사하세요.</p><textarea class="expanded-prompt" readonly>${esc(text)}</textarea>`);$('modal-body').querySelector('textarea').select();}}}
   function download(filename,text,type='text/plain;charset=utf-8'){const blob=new Blob(['\uFEFF'+text],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);}
-  function setStep(n){step=Math.max(0,Math.min(3,n));render();$('builder').scrollIntoView({behavior:'instant',block:'start'});}
   function adjustChapter(){state.chapterTotal=Math.max(state.chapter==='middle'?3:2,Math.min(60,Math.floor(Number(state.chapterTotal)||3)));state.chapterNumber=state.chapter==='middle'?Math.max(2,Math.min(state.chapterTotal-1,Math.floor(Number(state.chapterNumber)||2))):core.chapterIndex(state);}
   function setKey(el){const key=el.dataset.key;if(!key)return;state[key]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value;if(['chapter','chapterTotal','chapterNumber'].includes(key))adjustChapter();}
   function example(){
     state=core.defaults();state.title='[신상품명] 핵심 이해와 상담 활용';state.product='[최신 공식 상품명 입력]';state.point='상품 구조와 주요 조건을 이해하고, 고객 상황에 맞는 설명과 확인 질문을 준비한다.';state.impression='명확한 구조, 검증 가능한 근거, 현장에서 활용하기 쉬운 설명';state.workflow='plan';state.sourceNotes='최신 약관·상품요약서·판매기준을 AI에 별도 첨부. 각 조건의 근거 페이지를 표시하고 충돌은 확인 필요로 남긴다.';state.basis='[기준일] / [판매채널] / [개정 버전]';state.output='pptx';state.pageNumbers=true;state.cta='주요 조건을 확인하고 상담 사례에 적용해 보세요.';
-    ['상품명, 교육 목적과 학습 목표. 상품명은 최신 공식 명칭 사용.','고객의 어떤 필요를 설명하는가. 제공된 통계만 사용하고 출처·연도·대상을 표시.','상품 구조와 주요 보장/기능. 보증 여부와 적용 조건을 함께 표시.','주요 조건과 설계 예시. 계산 기준·단위·가정·출처 페이지를 보존.','고객 질문에 답하는 상담 사례. 적합한 상황과 확인할 조건을 구분.','핵심 요약, 학습 확인 질문, 상담 전 확인해야 할 항목.'].forEach((v,i)=>state.slides[i].content=v);step=0;render();toast('가상 신상품 교안 예시를 불러왔습니다. 실제 상품 자료로 바꿔주세요.');
+    ['상품명, 교육 목적과 학습 목표. 상품명은 최신 공식 명칭 사용.','고객의 어떤 필요를 설명하는가. 제공된 통계만 사용하고 출처·연도·대상을 표시.','상품 구조와 주요 보장/기능. 보증 여부와 적용 조건을 함께 표시.','주요 조건과 설계 예시. 계산 기준·단위·가정·출처 페이지를 보존.','고객 질문에 답하는 상담 사례. 적합한 상황과 확인할 조건을 구분.','핵심 요약, 학습 확인 질문, 상담 전 확인해야 할 항목.'].forEach((v,i)=>state.slides[i].content=v);render();toast('가상 신상품 교안 예시를 불러왔습니다. 실제 상품 자료로 바꿔주세요.');
   }
   function showModal(title,html){$('modal-title').textContent=title;$('modal-body').innerHTML=html;if(!$('modal').open)$('modal').showModal();}
   const links=`<a href="https://slide-prompter.tonylee.im/" target="_blank" rel="noopener noreferrer">원본 슬라이드 프롬프터</a> · <a href="https://github.com/humantonylee/future-slide" target="_blank" rel="noopener noreferrer">Future Slide GitHub</a>`;
@@ -92,7 +88,6 @@
   document.addEventListener('change',e=>{const el=e.target;if(el.dataset.key){setKey(el);if(['chapter','chapterTotal','chapterNumber','style'].includes(el.dataset.key))render();else update();}if(el.id==='custom-count'){core.resize(state,el.value);render();}});
   document.addEventListener('click',async e=>{
     const b=e.target.closest('button');if(!b)return;
-    if(b.dataset.step!==undefined){setStep(Number(b.dataset.step));return;}
     if(b.dataset.style){state.style=b.dataset.style;render();return;}
     if(b.dataset.count){core.resize(state,b.dataset.count);render();return;}
     if(b.hasAttribute('data-custom-count')){$('custom-count-wrap').hidden=false;$('custom-count').focus();$('custom-count').select();return;}
@@ -101,8 +96,6 @@
     if(b.dataset.dialog){dialog(b.dataset.dialog);return;}
     if(b.dataset.downloadStyle){const s=styles.find(x=>x.id===b.dataset.downloadStyle);if(s)download(`${s.name}_디자인규칙.txt`,s.rules);return;}
     switch(b.id){
-      case 'next':step===3?copy(core.build(state)):setStep(step+1);break;
-      case 'prev':setStep(step-1);break;
       case 'copy':copy(core.build(state));break;
       case 'download':download('영업교육팀_슬라이드_프롬프트.txt',core.build(state));toast('프롬프트 TXT를 내려받았습니다.');break;
       case 'expand-prompt':showModal('전체 프롬프트',`<textarea class="expanded-prompt" readonly aria-label="전체 프롬프트 크게 보기">${esc(core.build(state))}</textarea><button type="button" id="copy-expanded" class="button primary">전체 복사</button>`);break;
@@ -111,16 +104,15 @@
       case 'load-example':showModal('예시 불러오기',`<p>현재 입력을 가상의 신상품 교육 예시로 바꿉니다. 실제 상품 수치는 포함하지 않습니다. 현재 작업을 유지하려면 먼저 설정을 내보내세요.</p><button type="button" id="confirm-example" class="button primary">예시 불러오기</button>`);break;
       case 'confirm-example':$('modal').close();example();break;
       case 'reset':showModal('입력 초기화',`<p>현재 입력을 초기화하고 기본 설정으로 돌아갑니다. 저장된 팀 디자인 3종은 유지됩니다.</p><button type="button" id="confirm-reset" class="button primary">입력 초기화</button>`);break;
-      case 'confirm-reset':state=core.defaults();step=0;$('modal').close();render();toast('입력을 초기화했습니다.');break;
+      case 'confirm-reset':state=core.defaults();$('modal').close();render();toast('입력을 초기화했습니다.');break;
       case 'export-project':download('영업교육팀_프롬프터_설정.json',JSON.stringify(state,null,2),'application/json;charset=utf-8');toast('현재 설정을 파일로 내보냈습니다.');break;
       case 'import-project':$('project-file').click();break;
       case 'reset-roles':state.slides.forEach((p,i)=>{p.role=core.defaultRole(i,state.count);p.customRole=false;});render();toast('내용을 유지하고 기본 역할을 배치했습니다.');break;
       case 'copy-sop':copy('SOP AI 활용 아이디어 3가지\n\n1. 상품 근거 정리: 약관·상품요약서·판매기준을 대조해 주요 조건과 개정점, 출처 페이지를 정리하고 담당자가 원문을 확인한다.\n2. 팀 프롬프터로 교안 초안 제작: 대상·메시지·팀 디자인 규칙을 반영한 프롬프트로 교안 초안을 만든 후 담당자가 편집한다.\n3. 배포 전 검수 보조: 완성본의 수치·용어·설계조건·출처를 근거 자료와 대조하고 담당자가 최종 확인한다.');break;
-      case 'toggle-all':allOpen=!allOpen;b.textContent=allOpen?'단계별 보기':'전체 펼치기';render();break;
     }
   });
   $('autosave').addEventListener('change',e=>{autosave=e.target.checked;try{localStorage.setItem('sales-prompter-save',autosave?'yes':'no');if(!autosave)localStorage.removeItem('sales-prompter-v1');}catch{}update();toast(autosave?'이 브라우저에만 작업을 저장합니다.':'브라우저 작업 저장을 껐습니다.');});
-  $('project-file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{if(f.size>3000000)throw new Error('3MB 이하의 설정 파일을 선택해 주세요.');const text=(await f.text()).replace(/^\uFEFF/,'');const imported=core.normalize(JSON.parse(text));state=imported;step=0;render();toast('저장된 설정을 가져왔습니다.');}catch(err){toast(err instanceof SyntaxError?'올바른 JSON 설정 파일을 선택해 주세요.':err.message||'설정 파일을 읽을 수 없습니다.');}finally{e.target.value='';}});
+  $('project-file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{if(f.size>3000000)throw new Error('3MB 이하의 설정 파일을 선택해 주세요.');const text=(await f.text()).replace(/^\uFEFF/,'');const imported=core.normalize(JSON.parse(text));state=imported;render();toast('저장된 설정을 가져왔습니다.');}catch(err){toast(err instanceof SyntaxError?'올바른 JSON 설정 파일을 선택해 주세요.':err.message||'설정 파일을 읽을 수 없습니다.');}finally{e.target.value='';}});
   $('modal').addEventListener('click',e=>{if(e.target===$('modal')){const r=$('modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('modal').close();}});
   render();
 })();

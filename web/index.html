@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#007C83">
   <meta name="description" content="팀의 디자인으로 일관된 교육 콘텐츠를 만드는 영업교육팀 슬라이드 프롬프터">
-  <title>슬라이드 프롬프터 | 영업교육팀</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='2' y='2' width='60' height='60' rx='14' fill='%23007c83'/%3E%3Cpath d='M18 18h29v8H26v8h17v8H26v12h-8z' fill='white'/%3E%3C/svg%3E">
+  <title>영업교육팀 슬라이드 프롬프터</title>
+  <link rel="icon" type="image/png" href="assets/brand/fubon-logo-color.png">
+  <link rel="preload" href="assets/fonts/youandi-text-regular.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/youandi-head-bold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="components.css">
   <script defer src="styles-data.js"></script>
@@ -16,37 +19,30 @@
 <body>
   <a class="skip" href="#builder">프롬프트 만들기로 바로가기</a>
   <header class="topbar">
-    <a href="#" class="brand" aria-label="영업교육팀 슬라이드 프롬프터 홈"><span class="brand-symbol" aria-hidden="true">ST</span><span><strong>푸본현대생명</strong><small>Sales Training Team</small></span><span class="brand-divider"></span><span class="brand-product">슬라이드 프롬프터</span></a>
-    <nav aria-label="도움말"><a href="https://github.com/tux2won/fubon-sales-slide-skill" target="_blank" rel="noopener noreferrer">Codex 스킬 ↗</a><button type="button" data-dialog="guide">사용 가이드 <span aria-hidden="true">↗</span></button><button type="button" data-dialog="sop">SOP 활용 <span aria-hidden="true">↗</span></button><span class="version">TEAM VER. 1.1</span></nav>
+    <a href="#" class="brand" aria-label="영업교육팀 슬라이드 프롬프터 홈"><img class="brand-logo" src="assets/brand/fubon-logo-color.png" width="1530" height="297" alt="푸본현대생명"><span class="brand-divider" aria-hidden="true"></span><span class="brand-product">영업교육팀 슬라이드 프롬프터</span></a>
+    <nav aria-label="도움말"><a href="https://github.com/tux2won/fubon-sales-slide-skill" target="_blank" rel="noopener noreferrer">github</a><button type="button" data-dialog="guide">사용 가이드 <span aria-hidden="true">↗</span></button><button type="button" data-dialog="sop">SOP 활용 <span aria-hidden="true">↗</span></button><span class="version">TEAM VER. 1.2</span></nav>
   </header>
   <main>
-    <section class="intro" aria-labelledby="page-title">
-      <div><p class="eyebrow"><span></span> SALES TRAINING WORKSPACE</p><h1 id="page-title">좋은 교안의 시작,<br><em>우리 팀의 프롬프트로.</em></h1><p class="intro-copy">내용부터 디자인까지, 네 단계로 정리하세요.<br>우리 팀의 스타일을 담은 프롬프트가 완성됩니다.</p></div>
-      <div class="intro-note"><span class="small-label">TEAM DESIGN LIBRARY</span><strong>3<span>가지 스타일</span></strong><p>5개 레퍼런스 · 47쪽 분석 기반</p><div class="color-ribbon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
-    </section>
+    <h1 class="sr-only">영업교육팀 슬라이드 프롬프터</h1>
     <div class="workspace" id="builder">
       <section class="editor" aria-label="프롬프트 설정">
-        <div class="editor-top"><span class="small-label">PROMPT BUILDER</span><div><button type="button" id="toggle-all" class="text-button muted">전체 펼치기</button><button type="button" id="load-example" class="text-button">예시 불러오기</button><button type="button" id="reset" class="text-button muted">초기화</button></div></div>
-        <nav class="steps" aria-label="프롬프트 구성 단계" id="steps"></nav>
+        <div class="editor-top"><span class="small-label">PROMPT BUILDER</span><div><button type="button" id="load-example" class="text-button">예시 불러오기</button><button type="button" id="reset" class="text-button muted">초기화</button></div></div>
         <div id="panels"></div>
-        <div class="step-footer"><button type="button" id="prev" class="button secondary">← 이전 단계</button><span id="step-count"></span><button type="button" id="next" class="button primary">다음 단계 →</button></div>
         <div class="local-tools"><label><input type="checkbox" id="autosave"> 이 브라우저에 작업 저장</label><div><button type="button" id="export-project">설정 내보내기</button><button type="button" id="import-project">설정 가져오기</button><input type="file" id="project-file" accept="application/json,.json" hidden></div></div>
       </section>
-      <aside class="preview" aria-label="완성 프롬프트">
-        <div class="preview-heading"><div><span class="small-label">LIVE PROMPT</span><h2>완성 프롬프트</h2></div><span class="live-indicator"><i></i> 실시간 반영</span></div>
+      <aside class="preview" id="prompt-preview" aria-label="완성 프롬프트">
+        <div class="preview-heading"><div><span class="small-label">LIVE PROMPT</span><h2>완성 프롬프트</h2></div><button type="button" id="copy" class="button primary copy-button"><span aria-hidden="true">▣</span> 프롬프트 복사</button></div>
         <div class="preview-tags" id="preview-tags"></div>
         <p class="instruction-language">지시문은 영어 · 슬라이드 언어는 별도 선택</p>
         <div class="preview-toolbar"><span id="char-count"></span><button type="button" id="expand-prompt" class="text-button">크게 보기 ↗</button></div>
         <textarea id="prompt-output" readonly aria-label="조립된 전체 프롬프트" spellcheck="false"></textarea>
-        <button type="button" id="copy" class="button primary copy-button"><span aria-hidden="true">▣</span> 프롬프트 복사</button>
         <button type="button" id="download" class="button secondary download-button">TXT 내려받기 <span aria-hidden="true">↓</span></button>
         <p class="preview-help">복사한 프롬프트와 최신 상품 자료를<br>사용할 AI에 함께 전달하세요.</p>
         <div class="preview-footnote"><span aria-hidden="true">ⓘ</span><p>이 도구는 프롬프트를 조립합니다.<br>교안 생성과 편집은 선택한 AI에서 진행합니다.</p></div>
       </aside>
     </div>
-    <section class="bottom-note"><div><span class="small-label">CONSISTENT BY DESIGN</span><h2>반복하는 형식은 저장하고,<br>새로운 내용에 집중하세요.</h2></div><p>세 가지 팀 스타일에는 색상·서체·레이아웃·표·각주 규칙이 담겨 있습니다.<br>상품 정보는 제작할 때마다 최신 근거로 입력하세요.</p><button type="button" data-dialog="styles" class="button secondary">디자인 규칙 살펴보기 ↗</button></section>
   </main>
-  <footer class="site-footer"><span>푸본현대생명 · 영업교육팀</span><div><button type="button" data-dialog="about">제작 원리와 원본 안내</button><span>TEAM WORKSPACE / 2026</span></div></footer>
+  <footer class="site-footer"><span>푸본현대생명 · 영업교육팀</span><div><button type="button" data-dialog="styles">디자인 규칙 살펴보기</button><button type="button" data-dialog="about">제작 원리와 원본 안내</button><span>TEAM WORKSPACE / 2026</span></div></footer>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <dialog id="modal"><div class="modal-header"><h2 id="modal-title"></h2><button type="button" id="close-modal" aria-label="닫기">×</button></div><div id="modal-body"></div></dialog>
 </body>
