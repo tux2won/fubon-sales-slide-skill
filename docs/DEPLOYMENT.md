@@ -28,7 +28,7 @@ python scripts/package-web.py --out <artifact-directory>
 
 The export command compares every source/output file by SHA-256. The packaging command creates a self-contained HTML with embedded fonts and logo, a source ZIP, and a SHA-256 manifest.
 
-Existing hosted site: https://fubon-sales-slide-prompter.muddymangrove4.chatgpt.site/
+Previous Sites address (older UI): https://fubon-sales-slide-prompter.muddymangrove4.chatgpt.site/
 
 UI version 1.2 source is prepared and tested. The owner initially selected waiting for a compatible Codex/Sites update, then approved GitHub Pages after the existing publication path remained unavailable. The previous Sites address is retained as a historical address and still serves the older UI.
 

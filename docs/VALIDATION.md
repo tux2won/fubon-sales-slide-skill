@@ -1,5 +1,9 @@
 # Validation record
 
+## Public hosting 1.2.1
+
+On 2026-11-13, GitHub Pages branch publication completed successfully. The public entry URL forwards to the workspace at `/web/`. All 15 published website files matched canonical `web/` byte-for-byte by SHA-256 (Git web tree `3b67c9058df1c77ae882577f9fe1204147efde31`). Actual browser checks at the public HTTPS address confirmed all four sections, the exact title and `github` link, the original logo, all five loaded company font faces, a sticky prompt panel, and no horizontal overflow. The Codex clipboard output retained the Korean test title and began with `With $fubon-slide skill,`. Browser warnings/errors were empty, and the test inputs were reset afterward. The managed Pages deployment ran again automatically on the next push to `main` and succeeded.
+
 ## UI 1.2 update
 
 The website now renders all four input sections at once, with a sticky desktop prompt panel and a single scrolling document. The header uses the supplied Fubon color logo, the exact title ‘영업교육팀 슬라이드 프롬프터’, and a `github` link to the existing repository. The supplied Youandi Modern TextRegular, TextBold, HeadRegular, HeadBold, and HeadExtraBold files are registered as webfonts; browser font checks passed for all five faces. Body, headings, controls, numbers, and generated-prompt display use these font families.
