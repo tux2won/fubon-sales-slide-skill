@@ -6,7 +6,7 @@ The website now renders all four input sections at once, with a sticky desktop p
 
 Browser checks confirmed four visible sections with no step-toggle controls, the correct header/link labels, a loaded original logo, working style/credit changes and English Codex-copy output, no console errors, and no horizontal overflow at 390px. `scripts/export-web.mjs` verifies byte equality between canonical `web/` files and a chosen static export. The offline HTML inlines the same supplied fonts and logo.
 
-The GitHub UI source and prepared static export are updated. Re-publication to the original Sites URL is currently blocked by `sites_git_client_upgrade_required` from the connected Sites service; it must not be reported as deployed until that access path works or the user chooses another hosting route.
+The GitHub UI source and prepared static export are updated. Re-publication to the original Sites URL remains pending. On 2026-11-13, source access returned successfully with `auth_mode: codex_auth`, but the installed Sites 1.1.6 workflow rejected that unsupported mode; the desktop updater reported `up_to_date`. The owner selected keeping the existing URL. See [deployment status](DEPLOYMENT.md); do not report UI 1.2 as deployed until a compatible client/plugin completes publication.
 
 Validated on Windows with Node.js 24.22.1. The package requires Node.js 20+ for its own renderer; the optional third-party skills CLI may have a newer Node requirement.
 
