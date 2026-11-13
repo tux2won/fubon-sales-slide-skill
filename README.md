@@ -42,7 +42,7 @@
 
 1. [프롬프터](https://tux2won.github.io/fubon-sales-slide-skill/)를 열고, 네 블록을 순서대로 작성합니다.
 2. **04 고급 설정 → 출력 방식**에서 사용할 AI와 결과물 형식을 선택합니다.
-3. 오른쪽 **‘프롬프트 복사’**를 누릅니다. TXT 내려받기도 가능합니다.
+3. 오른쪽 **프롬프트 복사** 버튼을 누릅니다. TXT 내려받기도 가능합니다.
 4. 선택한 AI에 프롬프트를 붙여넣고 **최신 약관·상품요약서·판매기준 등 근거 자료를 함께 첨부**합니다.
 
 입력 화면은 한국어, 제작 지시문은 영어입니다. 슬라이드에 표시할 언어는 별도 선택하며 기본은 한국어입니다. 입력한 한국어 상품명·본문은 원문을 유지합니다. 영어 지시문 자체가 결과물의 품질을 보장하지는 않습니다.
@@ -139,7 +139,7 @@ GitHub에서 파일의 **연필 버튼 → 수정 → `main`에 커밋**하면 G
 node scripts/verify-pages.mjs
 ```
 
-현재 공유 주소는 **[GitHub Pages](https://tux2won.github.io/fubon-sales-slide-skill/)**입니다. 기존 ChatGPT Sites 주소에는 이전 UI가 남아 있습니다. [배포 설명](docs/DEPLOYMENT.md) · [검증 기록](docs/VALIDATION.md)
+현재 공유 주소는 [GitHub Pages](https://tux2won.github.io/fubon-sales-slide-skill/)입니다. 기존 ChatGPT Sites 주소에는 이전 UI가 남아 있습니다. [배포 설명](docs/DEPLOYMENT.md) · [검증 기록](docs/VALIDATION.md)
 
 <details>
 <summary><strong>로컬 템플릿 실행과 개발 명령</strong></summary>
