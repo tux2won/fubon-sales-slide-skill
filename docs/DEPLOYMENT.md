@@ -1,5 +1,21 @@
 # Website deployment
 
+## GitHub Pages (selected publication route)
+
+The owner approved GitHub Pages as the replacement public address on 2026-11-13. The configured publication source will be `main` at `/` with GitHub's branch publishing. The root `index.html` forwards visitors to `web/`, which is the canonical website source. `.nojekyll` keeps the published files unmodified, including the asset rights notice. No duplicate UI export or custom Actions workflow is required.
+
+Expected entry address: https://tux2won.github.io/fubon-sales-slide-skill/
+
+The publication is only complete after the Pages build succeeds and the live file check passes:
+
+```text
+node scripts/verify-pages.mjs
+```
+
+For future UI edits, change `web/`, commit and push to `main`, wait for the Pages deployment to finish, then run the same verification. Branch publishing automatically deploys each push to `main`. It does not update the old Sites address.
+
+## Static exports and previous Sites address
+
 Canonical source: `web/` in this repository. The same files, including supplied fonts and logos, must be deployed without substituting older UI files.
 
 ```text
@@ -12,7 +28,7 @@ The export command compares every source/output file by SHA-256. The packaging c
 
 Existing hosted site: https://fubon-sales-slide-prompter.muddymangrove4.chatgpt.site/
 
-UI version 1.2 source is prepared and tested. The owner selected updating the existing Sites URL after a compatible Codex/Sites update; publishing to a replacement host is not selected.
+UI version 1.2 source is prepared and tested. The owner initially selected waiting for a compatible Codex/Sites update, then approved GitHub Pages after the existing publication path remained unavailable. The previous Sites address is retained as a historical address and still serves the older UI.
 
 Rechecked on 2026-11-13: the Site is active and public. The earlier `sites_git_client_upgrade_required` response no longer occurs. The service now returns source access with `auth_mode: codex_auth`, but the installed Sites 1.1.6 workflow supports only `work_proxy` and `http_extra_header` and rejects the returned access with “Use the returned source repository access with its auth_mode, remote_url, and branch.” The desktop updater reports `up_to_date`; no newer compatible plugin was installed in this session.
 
